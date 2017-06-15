@@ -1,0 +1,10 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  .page-wrap-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
