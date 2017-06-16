@@ -6,65 +6,90 @@ html, body {
     display: grid;
     grid-template-columns: repeat(12, 1fr); }
 
-.pageContainer {
-  display: grid;
-  grid-template-columns: 1fr 300px 300px 1fr;
-  height: 100vh;
-  justify-content: center;
+body {
   overflow: hidden; }
-  .pageContainer .left {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    background-color: #34495E;
-    animation-name: slideLeft;
-    animation-duration: 2s;
-    animation-delay: 7s; }
-  .pageContainer .middle {
-    grid-column: 2 / 4;
-    grid-row: 1;
-    z-index: 2;
+
+header, nav, .page-wrap-container {
+  opacity: 0;
+  animation-name: pageInFade;
+  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-fill-mode: forwards; }
+
+@keyframes pageInFade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.loading-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100; }
+  .loading-overlay .pageContainer {
     display: grid;
-    align-content: space-around;
-    animation-name: slideDown;
-    animation-duration: 2s;
-    animation-delay: 7s; }
-    .pageContainer .middle .titleLogo {
-      background-image: url(assets/img/TechBytes_text.svg);
-      background-position: center;
-      background-size: 80%;
-      background-repeat: no-repeat;
-      height: 85px;
-      animation-name: slideUp;
+    grid-template-columns: 1fr 300px 300px 1fr;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden; }
+    .loading-overlay .pageContainer .left {
+      grid-column: 1 / 3;
+      grid-row: 1;
+      background-color: #34495E;
+      animation-name: slideLeft;
       animation-duration: 2s;
-      animation-delay: 3s; }
-    .pageContainer .middle .logo {
-      background-image: url(assets/img/Fox_Logo.png);
-      background-position: center;
-      background-size: 50%;
-      background-repeat: no-repeat;
-      height: 300px; }
-    .pageContainer .middle .spinWheel {
-      position: relative;
-      background-image: url(assets/img/New_spinwheel.svg);
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 144px;
-      animation-name: rotate;
-      animation-duration: 2500ms;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear; }
-    .pageContainer .middle p {
-      color: white;
-      text-align: center;
-      font-size: 20px; }
-  .pageContainer .right {
-    grid-column: 3 / 5;
-    grid-row: 1;
-    background-color: #3498DB;
-    animation-name: slideRight;
-    animation-duration: 2s;
-    animation-delay: 7s; }
+      animation-delay: 7s;
+      animation-fill-mode: forwards; }
+    .loading-overlay .pageContainer .middle {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      z-index: 2;
+      display: grid;
+      align-content: space-around;
+      animation-name: slideDown;
+      animation-duration: 2s;
+      animation-delay: 7s;
+      animation-fill-mode: forwards; }
+      .loading-overlay .pageContainer .middle .titleLogo {
+        background-image: url(assets/img/TechBytes_text.svg);
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        height: 85px;
+        animation-name: slideUp;
+        animation-duration: 2s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards; }
+      .loading-overlay .pageContainer .middle .logo {
+        background-image: url(assets/img/Fox_Logo.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        height: 300px; }
+      .loading-overlay .pageContainer .middle .spinWheel {
+        position: relative;
+        background-image: url(assets/img/New_spinwheel.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 144px;
+        animation-name: rotate;
+        animation-duration: 2500ms;
+        animation-iteration-count: 5;
+        animation-timing-function: linear; }
+      .loading-overlay .pageContainer .middle p {
+        color: white;
+        text-align: center;
+        font-size: 20px; }
+    .loading-overlay .pageContainer .right {
+      grid-column: 3 / 5;
+      grid-row: 1;
+      background-color: #3498DB;
+      animation-name: slideRight;
+      animation-duration: 2s;
+      animation-delay: 7s;
+      animation-fill-mode: forwards; }
 
 @keyframes rotate {
   0% {

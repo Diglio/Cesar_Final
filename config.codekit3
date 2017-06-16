@@ -289,12 +289,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/home.html",
-		"oF": 0
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -302,14 +296,6 @@
 		"oF": 0
 		},
 	"\/jadefiles\/index.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/home.html",
-		"oF": 2,
-		"oS": 0
-		},
-	"\/jadefiles\/loading.jade": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
