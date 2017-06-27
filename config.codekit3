@@ -135,6 +135,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/skills-background.jpg": {
+		"ft": 16384,
+		"iS": 253505,
+		"oA": 0,
+		"oAP": "\/assets\/img\/skills-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/TechBytes_text.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -198,6 +208,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/biking.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/biking.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/coffee.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/coffee.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -207,6 +243,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/hiking.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/hiking.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -259,6 +321,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/reading.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/reading.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/setup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/setup.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

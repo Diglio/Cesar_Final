@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>TechBytes | Home</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Economica|Russo+One|Hind+Siliguri|">
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="loading-overlay">
-    <div class="pageContainer">
-      <div class="left"></div>
-      <div class="middle">
-        <div class="titleLogo"></div>
-        <div class="logo"></div>
-        <div class="spinWheel"></div>
-        <p>Please wait while we load the page</p>
-      </div>
-      <div class="right"></div>
-    </div>
-  </div>
-  <header><a href="home.html" class="nav-logo"></a>
+  <header><a href="#" class="nav-logo"></a>
     <div class="hamburger"><span></span><span></span><span></span></div>
     <div class="desktop-nav">
       <ul>
-        <li>Welcome</li>
+        <li class="active">Welcome</li>
         <li>About</li>
         <li>Skills</li>
         <li>Portfolio</li>
@@ -33,7 +22,7 @@
   <nav>
     <div class="mobile-nav">
       <ul>
-        <li>Welcome</li>
+        <li class="active">Welcome</li>
         <li>About</li>
         <li>Skills</li>
         <li>Portfolio</li>
@@ -76,6 +65,66 @@
         </div>
       </div>
     </section>
+    <section class="setup">
+      <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <h2>Setup</h2>
+      <p>picture 1</p>
+      <p>picture 2</p>
+    </section>
+    <section class="bikingGear">
+      <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <h2>Biking</h2>
+      <p>Picture 1</p>
+      <p>Picture 2</p>
+    </section>
+    <section class="readingList">
+      <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <h2>Reading</h2>
+      <p>Picture 1</p>
+      <p>Picture 2</p>
+    </section>
+    <section class="coffeeFreak">
+      <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <h2>Coffee</h2>
+      <p>Picture 1</p>
+      <p>Picture 2</p>
+    </section>
+    <section class="hiking">
+      <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <h2>Hiking</h2>
+      <p>Picture 1</p>
+      <p>Picture 2            </p>
+    </section>
     <section class="skills">
       <h2>Skills</h2>
       <div class="programming-container">
@@ -97,8 +146,7 @@
     </section>
     <section class="portfolio">
       <h2>Portfolio</h2>
-      <div class="portfolio-container">
-        <div class="mod mod1"></div>
+      <div class="portfolio-container"><a href="/calendar" class="mod mod1"></a>
         <div class="mod mod2"></div>
         <div class="mod mod3"></div>
         <div class="mod mod4"></div>
@@ -107,7 +155,7 @@
       </div>
     </section>
     <section class="contact">
-      <h2>Contact</h2><form action="/submitted" method="POST"><p class="first"><input type="text" name="name" placeholder="Name"><br/>
+      <h2>Contact</h2><form  method="POST"><p class="first"><input type="text" name="name" placeholder="Name"><br/>
       <p class="email"><input type="text" name="email" placeholder="Email"><br/>
       <p class="message"><textarea rows="6" type="text" name="message" placeholder="Message"></textarea><br/>
       <button input="submit" value="submit" disabled>Submit</button>
@@ -117,17 +165,18 @@
         $('button').removeAttr('disabled');
         };
       </script></form>
-      <div class="icon-container">
-        <div class="github"></div>
-        <div class="linkedIn"></div>
-        <div class="twitter"></div>
+      <div class="icon-container"><a href="https://github.com/c3as3" target="_blank" class="github"></a><a href="https://www.linkedin.com/in/casanchez189/" target="_blank" class="linkedIn"></a><a href="https://twitter.com/C_RUN_IT" target="_blank" class="twitter"></a>
         <p class="githubText">Github</p>
         <p class="linkedInText">LinkedIn</p>
         <p class="twitterText">Twitter</p>
       </div>
     </section>
+    <section class="footer">
+      <p>@2017 Techbytes.Me All Rights Reserverd</p>
+    </section>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/scripts.js"></script>
   <script src="assets/js/scripts.js"></script>
   <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
